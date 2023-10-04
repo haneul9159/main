@@ -1,0 +1,8 @@
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #aaa; /* 스크롤바 색상 */
+    border-radius: 5px;
+}

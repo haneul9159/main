@@ -1,0 +1,103 @@
+@media screen and (max-width: 1440px) {
+  footer {
+    width: 1280px;
+  }
+  .go_top {
+    right: 80px;
+    bottom: 40px;
+    display: none;
+    width: 40px;
+    height: 40px;
+  }
+
+  .go_top span {
+    border-top: 2px solid #eee;
+    border-left: 2px solid #eee;
+    width: 10px;
+    height: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+  }
+  .header {
+    width: 1280px;
+  }
+  .main {
+    width: 1280px;
+  }
+  .main .title {
+    width: 550px;
+    height: 220px;
+  }
+  .main .title h1 {
+    font-size: 100px;
+  }
+  .main .title h1 span {
+    font-size: 60px;
+  }
+  .main .title p {
+    font-size: 100px;
+  }
+
+  @keyframes title4 {
+    0% {
+      bottom: -500px;
+      opacity: 0;
+    }
+
+    50% {
+      opacity: 0;
+    }
+
+    100% {
+      bottom: 75px;
+      opacity: 1;
+    }
+  }
+
+  .section-wrap {
+    width: 1280px;
+  }
+  .page2-content .line {
+    width: 900px;
+  }
+  @keyframes title3 {
+    0% {
+      width: 0;
+      opacity: 0;
+    }
+
+    100% {
+      width: 900px;
+      opacity: 1;
+    }
+  }
+  .page3-top h1 {
+    left: 3%;
+  }
+  .page3-bottom h2 {
+    padding-left: 3%;
+    padding-bottom: 10px;
+  }
+  .page3-bottom p {
+    padding-left: 3%;
+    padding-bottom: 7px;
+    line-height: 1.5;
+  }
+  .page3-bottom .hashtag {
+    display: flex;
+    gap: 10px;
+    padding-left: 3%;
+    margin: 20px 0;
+  }
+  .page4-top h1 {
+    padding-top: 20px;
+  }
+
+  .page4-bottom {
+    top: 45%;
+  }
+
+  .page5-bottom {
+  }
+}
