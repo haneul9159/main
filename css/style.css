@@ -293,8 +293,10 @@ header:hover {
   position: absolute;
   top: 15%;
 }
-.profile-img img {
+.profile-img {
   border-radius: 5px;
+  background: url("../img/profile.jpg") no-repeat center/cover;
+  width: 40%;
 }
 .profile-text {
   padding-left: 50px;
@@ -470,13 +472,16 @@ header:hover {
   width: 1260px !important;
 }
 .page4-Swiper .swiper-slide .left {
-  padding-left: 40px;
+  margin-left: 60px;
+  width: 40%;
 }
 .page4-Swiper .swiper-slide .left img {
   border-radius: 5px;
+  width: 100%;
 }
 .page4-Swiper .swiper-slide .right {
   padding-left: 100px;
+  width: 60%;
 }
 .page4-Swiper .swiper-slide .right h1 {
   font-size: 2rem;
@@ -544,14 +549,6 @@ header:hover {
   width: 16px;
   border-radius: 30px;
 }
-.subway-img {
-  background: #f7f7f7 url("../img/subway_mockup_1.png") no-repeat center/cover;
-  background-size: 90%;
-  width: 500px;
-  height: 300px;
-  border-radius: 5px;
-  margin-left: 50px;
-}
 .page5-bottom {
   width: 100%;
   position: absolute;
@@ -560,7 +557,8 @@ header:hover {
 .page5-bottom .item-box {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
+  width: 100%;
 }
 .page5-bottom .item-box .item {
   flex: 0 0 calc(33.33% - 20px);
